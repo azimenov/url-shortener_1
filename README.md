@@ -8,5 +8,5 @@ link to implementation
 My application is written in Java Spring, to start application you need to import project and download needed JDK i use Java versioin 17
 Then in docker folder you need to run init.sh file that will create images of microservices and start needed containers
 
-In repository there is json file to post request, you can import it in  for shortening long URL. 
+In repository there is json file to post request, you can import it in postman for shortening long URL. 
 After you make POST request to server by this GET request http://localhost/api/shortUrl/{hashValue} you can access to it, by changing hashValue to what was returned to you
