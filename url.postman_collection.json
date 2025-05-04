@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "aa9d478b-8b1a-43b8-8fc3-196e4ab354b1",
+		"name": "url",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28953962",
+		"_collection_link": "https://red-shadow-288043.postman.co/workspace/My-Workspace~ad7a1939-0c15-4106-891d-3d05b9068123/collection/28953962-aa9d478b-8b1a-43b8-8fc3-196e4ab354b1?action=share&source=collection_link&creator=28953962"
+	},
+	"item": [
+		{
+			"name": "create short url",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/shorten?originalUrl=https://www.linkedin.com/in/dias-jakupov-526046253/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"shorten"
+					],
+					"query": [
+						{
+							"key": "originalUrl",
+							"value": "https://www.linkedin.com/in/dias-jakupov-526046253/"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
